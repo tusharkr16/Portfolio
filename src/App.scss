@@ -1,0 +1,21 @@
+.App{
+    height: 100%;
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    .section{
+        width: 100%;
+        height:-moz-calc(100vh - 70px);
+        height:-webkit-calc(100vh - 70px);
+
+        
+        position: relative;
+        top: 70px;
+        > *{
+            width: 100vw;
+            height: 100vh;
+            scroll-snap-align: start;
+            
+        }
+    }
+}
